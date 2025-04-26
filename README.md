@@ -37,5 +37,17 @@ Este script creará una tabla de ejemplo llamada `usuarios`, insertará un regis
 
 ## Estructura del proyecto
 
-- `main.py`: Contiene la clase `Database` que gestiona la conexión con MariaDB
-- `ejemplo_uso.py`: Un ejemplo de cómo usar la clase Database 
+-`main.py`: Punto de entrada del programa, inicializa la interfaz principal.
+
+-`database.py`: Maneja la conexión a la base de datos MariaDB (asumiré que ya lo tienes, pero lo incluiré para referencia).
+
+-`producto.py`: Clase para gestionar las operaciones CRUD de productos y generar informes relacionados.
+
+-`cliente.py`: Clase para gestionar las operaciones CRUD de clientes y generar informes relacionados.
+
+-`interfaz_principal.py`: Ventana principal con accesos a los módulos de productos y clientes.
+
+-`interfaz_productos.py`: Interfaz para gestionar productos (CRUD e informes).
+
+-`interfaz_clientes.py`: Interfaz para gestionar clientes (CRUD e informes).
+
