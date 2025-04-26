@@ -30,7 +30,7 @@ Si necesitas modificar estos parámetros, edítalos en el archivo `ejemplo_uso.p
 Para ejecutar el ejemplo, simplemente usa:
 
 ```bash
-python ejemplo_uso.py
+python main.py
 ```
 
 Este script creará una tabla de ejemplo llamada `usuarios`, insertará un registro y mostrará los datos almacenados.
